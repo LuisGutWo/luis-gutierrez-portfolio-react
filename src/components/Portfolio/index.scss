@@ -4,10 +4,16 @@
     }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+$color-primary-white: rgb(240, 240, 240);
+
+
+// Background particles
 .background {
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
     background: #160c3d;
@@ -267,116 +273,128 @@
     box-shadow: 2vmin 0 0.884395416258235vmin currentColor;
 }
 
+// End background particles
 
 
+// Portfolio main page
 .portfolio-page {
     padding-left: 100px;
     padding-right: 50px;
     width: calc(100% - 150px);
     position: initial;
-    height: 100%;
+    height: 100vh;
     overflow: auto;
 
     h1.page-title {
         margin-left: 100px;
-        margin-top: 100px;
+        margin-top: 70px;
+        padding-bottom: 0;
     }
 
-    .images-container {
-        display: flex;
-        gap: 15px;
-        flex-wrap: wrap;
-        padding-bottom: 100px;
-    }
+}
 
-    .image-box {
-        position: relative;
-        flex: 1 1 20%;
-        height: 400px;
-        overflow: hidden;
-        border-radius: 10px;
-        max-width: calc(25% - 10px);
+// New pics gallery carousel
 
-        .portfolio-image {
-            position: absolute;
-            z-index: 2;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+.carousel {
+    width: 100%;
+    overflow-x: scroll;
+    padding: 35px;
+    padding-top: 0;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 
-        .content {
-            position: absolute;
-            width: 100%;
-            z-index: 3;
-            padding: 10px 20px;
-            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            background: linear-gradient(180deg,
-                    rgba(0, 0, 0, 0.2) 0,
-                    rgba(0, 0, 0, 1));
-            bottom: -70px;
-        }
+    .carousel__container {
+        white-space: nowrap;
+        margin: 0 0 50px 0;
+        padding-bottom: 0;
+        display: inline-block;
 
-        .title {
-            margin-bottom: 0;
-            margin-top: 0;
-            color: #fff;
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 24px;
-        }
-
-        .description {
-            font-size: 14px;
-            margin-bottom: 5px;
-            color: #fff;
-            font-weight: 700;
-        }
-
-        .btn {
-            margin-top: 30px;
-            margin-bottom: 10px;
-            padding: 0 23px;
-            height: 40px;
-            line-height: 34px;
-            border: 2px solid #ffd700;
-            border-radius: 4px;
-            font-size: 14px;
-            color: #fff;
-            background: transparent;
-            text-transform: uppercase;
-            font-weight: 700;
-            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        .carousel-card {
+            width: 200px;
+            height: 300px;
+            border-radius: 20px;
+            background-color: transparent;
+            overflow: hidden;
+            margin-right: 20px;
+            margin-top: 70px;
+            display: inline-block;
             cursor: pointer;
+            -webkit-transition: 1000ms all;
+            transition: 1000ms all;
+            -webkit-transform-origin: center left;
+            transform-origin: center left;
+            position: relative;
+            animation: zoomIn;
+            animation-duration: 4s;
+
+            .carousel-card__img {
+                width: 200px;
+                height: 300px;
+                -o-object-fit: cover;
+                object-fit: cover;
+                object-position: top;
+            }
+
+            .carousel-card__details {
+                background: -webkit-gradient(linear,
+                        left bottom,
+                        left top,
+                        from(rgb(0, 0, 0)),
+                        to(rgba(0, 0, 0, 0.614)));
+                background: linear-gradient(to top,
+                        rgba(0, 0, 0, 0.96) 0%,
+                        rgba(0, 0, 0, 0.611) 100%);
+                font-size: 14px;
+                opacity: 0;
+                -webkit-transition: 450ms opacity;
+                transition: 450ms opacity;
+                padding: 10px;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding-top: 7em;
+            }
+
+            &__details:hover {
+                opacity: 1;
+            }
+
+            &__details .carousel-item__details--title,
+            &__details--subtitle {
+                color: #fff;
+                margin: 5px 0;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
         }
 
-        .btn:hover {
-            transform: translateY(-3px);
-            background: #ffd700;
-        }
-
-        &:after {
-            content: "";
-            background: linear-gradient(180deg, #ffd700, #000);
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 2;
-            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            opacity: 0;
-        }
-
-        &:hover:after {
-            opacity: 0.85;
-        }
-
-        &:hover .content {
-            bottom: 0;
-            background: transparent;
-        }
     }
+}
+
+.carousel-card:hover~.carousel-card {
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+}
+
+.carousel__container:hover .carousel-card {
+    opacity: 0.3;
+}
+
+.carousel__container:hover .carousel-card:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 1;
 }

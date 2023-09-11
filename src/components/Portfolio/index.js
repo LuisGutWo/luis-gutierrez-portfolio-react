@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from "react";
-import EmblaCarousel from '../Layout/EmblaCarousel';
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import '../../components/Layout/sandbox.css';
 import '../../components/Layout/embla.css';
 import "./index.scss";
-
-const OPTIONS = { loop: true }
-const SLIDE_COUNT = 5
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+import MainPortfolioCards from "../Portfolio/MainPortfolioCards";
+import 'animate.css';
 
 
 const Portfolio = () => {
@@ -61,11 +58,7 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <section className="sandbox">
-                    <section className="sandbox__carousel">
-                        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-                    </section>
-                </section>
+                <MainPortfolioCards />
             </article>
             <Loader type="line-scale-pulse-out" />
         </>

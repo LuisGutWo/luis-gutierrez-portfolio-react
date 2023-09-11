@@ -267,24 +267,31 @@
   }
 }
 
-.about-button{
+.about-thumbnail {
+  display: inline-block;
+  width: 1.8em;
+  margin-left: 2em;
+  animation: backInLeft;
+  animation-duration: 4s;
+}
+
+.about-button {
   background-color: #efd81d;
   border: none;
   border-radius: .2rem;
   box-sizing: content-box;
   cursor: pointer;
   display: inline-block;
-  font-family:'Roboto', sans-serif ;
-  font-size:1.8em;
+  font-size: 1.5em;
   font-weight: bold;
   height: auto;
-  letter-spacing:-.02em;
+  letter-spacing: -.02em;
   line-height: normal;
   margin-top: 2rem;
   padding: .5% 1.5%;
   text-align: center;
-  text-decoration:none;
-  text-transform:uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
   transition: all ease-in-out .2s, opacity linear .2s;
   width: fit-content;
 
@@ -303,7 +310,7 @@
   right: 0;
   overflow: hidden;
 
-  @media (max-width: 1200px){
+  @media (max-width: 1200px) {
     padding-top: 20%;
   }
 }

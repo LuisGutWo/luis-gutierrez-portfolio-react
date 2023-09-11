@@ -19,5 +19,7 @@
     width: 100%;
     transform: rotateZ(30deg) !important;
     z-index: 1;
+    animation: jackInTheBox;
+    animation-duration: 7s;
   }
 }

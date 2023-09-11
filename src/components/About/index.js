@@ -12,6 +12,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import { Image } from 'react-bootstrap'
+import 'animate.css';
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -59,7 +60,7 @@ const About = () => {
               strArray={['A', 'c', 'e', 'r', 'c', 'a', ' ', 'd', 'e', ' ', 'm', 'i']}
               idx={15}
             />
-            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/luis_portada.jpg?alt=media&token=896dee8f-d49c-4c7f-923d-81df3a0b7ef2" className="about-thumbnail" thumbnail />
+            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/luis_portada.jpg?alt=media&token=896dee8f-d49c-4c7f-923d-81df3a0b7ef2" className="about-thumbnail" thumbnail/>
           </h1>
           <p>
             Soy desarrollador Front-end en búsqueda de nuevos desafíos profesionales que me permitan crecer en la industria TI y tener la oportunidad de aprender nuevas tecnologías y metodologías de trabajo.
