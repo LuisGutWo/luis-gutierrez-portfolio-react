@@ -40,7 +40,8 @@
     }
 
     img {
-      margin-left: 20px;
+      margin-left: 28px;
+      margin-right: 8px;
       opacity: 0;
       width: 0.8em;
       height: auto;
@@ -72,6 +73,8 @@
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
+    animation: backInLeft;
+    animation-duration: 3s;
 
     &:hover {
       background: #ffd700;

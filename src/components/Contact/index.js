@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Modal } from "react-bootstrap";
 import Loader from 'react-loaders'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
@@ -7,8 +8,12 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate');
+  const [showEmailSend, setShowEmailSend] = useState(false);
   const form = useRef()
+
+  const handleCloseEmailSend = () => setShowEmailSend(false);
+  const handleShowEmailSend = () => setShowEmailSend(true);
 
   useEffect(() => {
     return setTimeout(() => {
@@ -20,18 +25,21 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm("service_a6l6xm9",
-        "template_6jdtamc", form.current, "QVDHpjw6RiU7JDfap")
-      .then(
-        () => {
-          alert('se envió el email satisfactoriamente!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('error al enviar email, intente de nuevo')
-        }
+      .sendForm(
+        import.meta.env.VITE_SERVICE_EMAILJS,
+        import.meta.env.VITE_TEMPLATE_EMAILJS,
+        form.current,
+        import.meta.env.VITE_FORM_CURRENT
       )
-  }
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <>
@@ -71,7 +79,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Actualmente me encuentro desarrollando mi propia empresa freelance buscando oportunidades profesionales que me permitan crecer en la industria TI y seguir aprendiendo nuevas habilidades y tecnologías. Si tienes alguna propuesta contácteme.
+            Actualmente me desarrollo como freelance y a la vez buscando alguna oportunidad que me permita crecer como Front End y aprender a trabajar en la industria TI, me emociona aprender nuevas habilidades y tecnologías.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -103,9 +111,17 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="ENVIAR" />
+                  <input type="submit" className="flat-button" value="ENVIAR" onClick={handleShowEmailSend} />
                 </li>
               </ul>
+              <Modal show={showEmailSend} onHide={handleCloseEmailSend}>
+                <Modal.Header closeButton>
+                  <Modal.Body>
+                    Correo Enviado! 🛸 <br /> Te responderemos de inmediato.
+                    Gracias
+                  </Modal.Body>
+                </Modal.Header>
+              </Modal>
             </form>
           </div>
         </div>

@@ -60,18 +60,19 @@ const About = () => {
               strArray={['A', 'c', 'e', 'r', 'c', 'a', ' ', 'd', 'e', ' ', 'm', 'i']}
               idx={15}
             />
-            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/luis_portada.jpg?alt=media&token=896dee8f-d49c-4c7f-923d-81df3a0b7ef2" className="about-thumbnail" thumbnail/>
+            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/thumbnail_new_luis_pic.jpg?alt=media&token=5625411f-881e-4097-a7c2-921a1a1d79da" className="about-thumbnail" thumbnail />
           </h1>
           <p>
-            Soy desarrollador Front-end en búsqueda de nuevos desafíos profesionales que me permitan crecer en la industria TI y tener la oportunidad de aprender nuevas tecnologías y metodologías de trabajo.
+            Soy un desarrollador web Front-end recién egresado con conocimientos en HTML, CSS, JavaScript y React. Vengo del sector Hotelero y me atrajo mucho el desarrollo web.
           </p>
-          <br/>
+          <br />
           <p align="LEFT">
-            Como técnico en Hostelería y Turismo, me he dedicado por mas de 18 años al servicio al cliente, muy meticuloso en lo que hago y siempre estando a la vanguardia adquiriendo constantemente nuevos conocimientos.
+            Me gusta utilizar este framework para crear interfaces de usuario dinámicas, interactivas y modernas que se adapten a diferentes dispositivos y navegadores. Tengo experiencia en el uso de componentes, hooks, estados, props y rutas, así como en la integración de APIs y servicios externos.
           </p>
-          <br/>
+          <br />
           <p>
-            Me defino como un apasionado por las cosas que valoro en esta vida como mi familia, el cocinar y disfrutar de buena música, y por sobre todo un amante de la tecnología.
+            Soy una persona entusiasta, responsable y con capacidad de trabajar en equipo o de forma autónoma. Por muchos años dedicado al servicio y atención al cliente y proveedores, ganando la habilidad de relacionarme y adaptarme socialmente muy bien.
+
           </p>
           <a href="https://www.canva.com/design/DAFgzUcKi5w/J1k21Aj8S8KcBvmIbF1F2Q/view?utm_content=DAFgzUcKi5w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
             target="_blank"

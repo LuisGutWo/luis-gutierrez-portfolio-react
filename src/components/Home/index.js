@@ -52,6 +52,19 @@ const Home = () => {
         <span></span>
         <span></span>
         <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
       <div className="container home-page">
 
