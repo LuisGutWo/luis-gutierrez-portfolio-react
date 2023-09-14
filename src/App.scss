@@ -1,8 +1,8 @@
 $primary-color: #ffd700;
 
-
-@import 'animate.css';
 @import '~loaders.css/src/animations/line-scale-pulse-out.scss';
+@import 'animate.css';
+
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -48,9 +48,12 @@ textarea {
   height: 100px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
-  color: #443b07;
+  transform: scale(1.3);
 }
 
+
+
+// Background particles styles
 @keyframes move {
   100% {
     transform: translate3d(0, 0, 1px) rotate(360deg);

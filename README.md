@@ -1,25 +1,28 @@
-# Portafolio Luis Gutierrez
+# Luis Gutierrez Portafolio Website
 
-## Web Project portafolio personal con React
+- [Deployed by Netlify](https://luis-gutierrez-portfolio.netlify.app/)
 
-* Portafolio personal inspirado en un proyecto de Sloba en React, lo personalice con la librería React-Bootstrap. Para la sección de contacto utilice Email.js para el envío de emails. Por ultimo, aplique algunas transiciones y efectos principalmente con animate.css y componentes de Embla-carousel. Para la geo localización utilice Leaflet y aplique loader por medio de Loaders.css.
+![Portafolio Luis Gutierrez](https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/luis_gutierrez_portfolio_screeshot.png?alt=media&token=f3138c29-7019-421c-96f8-da750ec76f86)
 
-### Dependencias
+## Elaborado con
 
-* React
-* React Router Dom
-* React Bootstrap
-* Sass
-* Animated.css
-* Email.js
-* Fontawesome
-* Embla Carousel React
-* Loaders.css
+Mi portafolio personal lo elabore utilizando las herramientas adquiridas como desarrollador Front End | React
 
-## Deploy
+Utilice las siguientes tecnologías.
 
-* [Deployed by Netlify](https://portfolio-luis-gutierrez-test.netlify.app/)
+- React.js
+- Node.js
+- React-Bootstrap
+- CSS3
+- Sass
+- VsCode
+- Netlify
+- Emailjs
 
-## Screen shot del proyecto
+## Características
 
-![Portafolio Luis Gutierrez](public/portfolio_screenshot.png)
+📖 Diseño de una sola pagina (spa)
+
+🎨 Estilos com React-Bootstrap y Sass-Css
+
+📱 Full Responsive

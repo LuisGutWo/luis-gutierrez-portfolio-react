@@ -63,7 +63,7 @@ const About = () => {
             <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/thumbnail_new_luis_pic.jpg?alt=media&token=5625411f-881e-4097-a7c2-921a1a1d79da" className="about-thumbnail" thumbnail />
           </h1>
           <p>
-            Soy desarrollador web Front-end recién egresado con conocimientos en HTML, CSS, JavaScript y React. También soy profesional en Hostelería, turismo y restaurantes dedicado al servicio al cliente por mas de 18 años.
+            Soy desarrollador web Front-end recién egresado con conocimientos en HTML, CSS, JavaScript y React. También soy profesional en Hostelería dedicado al servicio al cliente por mas de 18 años.
           </p>
           <br />
           <p align="LEFT">
@@ -71,7 +71,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            Soy una persona entusiasta, responsable y con capacidad de trabajar en equipo o de forma autónoma. Por muchos años dedicado al servicio y atención al cliente he desarrollado la habilidad de relacionarme y adaptarme socialmente, liderar equipos de trabajo y en cumplir metas y altos estándares de servicio.
+            Soy una persona entusiasta, responsable y con capacidad de trabajar en equipo o de forma autónoma. Por muchos años dedicado al servicio y atención al cliente he desarrollado la habilidad de relacionarme y adaptarme socialmente, liderar equipos de trabajo y cumplir metas y altos estándares de servicio.
 
           </p>
           <a href="https://www.canva.com/design/DAFgzUcKi5w/J1k21Aj8S8KcBvmIbF1F2Q/view?utm_content=DAFgzUcKi5w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"

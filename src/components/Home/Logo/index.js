@@ -8,7 +8,7 @@ const Logo = () => {
   return (
     <div className="logo-container">
       <img
-        className="solid-logo animate__animated animate__jackInTheBox"
+        className="solid-logo"
         src={LogoS}
         alt="JavaScript,  Developer"
       />
