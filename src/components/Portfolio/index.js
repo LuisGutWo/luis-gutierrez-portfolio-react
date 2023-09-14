@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
-import '../../components/Layout/sandbox.css';
-import '../../components/Layout/embla.css';
 import "./index.scss";
 import MainPortfolioCards from "../Portfolio/MainPortfolioCards";
 import 'animate.css';
@@ -16,13 +14,17 @@ const Portfolio = () => {
     useEffect(() => {
         setLoading(true);
 
-        fetch("/works.json")
+        fetch(process.env.REACT_APP_API_URL)
             .then((res) => res.json())
             .then((data) => {
                 setData(data);
                 setLoading(false);
-            })
-
+            },
+                (error) => {
+                    console.log(error);
+                    setLoading(false);
+                }
+            )
             .finally(() => setLoading(false));
     }, []);
 
@@ -67,30 +69,30 @@ const Portfolio = () => {
                 <span></span>
             </section>
             <article className="container portfolio-page">
-                <Container className="animate__animated animate__fadeIn">
-                    <h1 className="page-title">
-                        <AnimatedLetters
-                            letterClass={letterClass}
-                            strArray={"Portfolio".split("")}
-                            idx={15}
-                        />
-                    </h1>
-                    <Row
-                        xs={2}
-                        md={3}
-                        lg={4}
-                        className="works-cards-section"
-                    >
-                        {data.map(
-                            (item) => (
-                                <Col key={item.id}>
-                                    <MainPortfolioCards key={item.id} item={item} />
-                                </Col>
-                            )
+                <h1 className="page-title">
+                    <AnimatedLetters
+                        letterClass={letterClass}
+                        strArray={"Portafolio".split("")}
+                        idx={15}
+                    />
+                </h1>
+
+                <Row
+                    xs={2}
+                    md={3}
+                    lg={4}
+                    className="works-cards-section"
+                >
+                    {data.map(
+                        (item) => (
+                            <Col key={item.id}>
+                                <MainPortfolioCards key={item.id} item={item} />
+                            </Col>
                         )
-                        }
-                    </Row>
-                </Container>
+                    )
+                    }
+                </Row>
+
             </article>
             <Loader type="line-scale-pulse-out" />
         </>

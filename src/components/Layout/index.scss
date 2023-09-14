@@ -5,22 +5,15 @@
 }
 
 .top-tags {
-  bottom: auto;
-  top: 35px;
+  display: none;
 }
 
 .tags {
-  color: #ffd700;
-  opacity: 0.6;
-  position: absolute;
-  bottom: 0;
-  left: 120px;
-  font-size: 18px;
-  font-family: 'La Belle Aurore', cursive;
+  display: none;
 }
 
 .bottom-tag-html {
-  margin-left: -20px;
+  display: none;
 }
 
 .container {
