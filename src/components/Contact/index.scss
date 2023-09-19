@@ -103,7 +103,7 @@
   font-size: 17px;
   font-weight: 300;
   opacity: 0;
-  animation: fadeIn 1s 1.5s;
+  animation: fadeIn 1s 3s;
   animation-fill-mode: forwards;
 
   span {
@@ -124,7 +124,8 @@
   }
 
   .info-map {
-    top: 80%;
-    left: 10%;
+    top: 62%;
+    left: 13%;
+    width: 200px;
   }
 }

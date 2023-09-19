@@ -95,10 +95,10 @@
 
   .home-page .text-zone {
     position: initial;
-    width: 100%;
+    width: 400px;
     transform: none;
-    padding: 10px;
-    margin: 130px 0 0 30px;
+    padding: 1rem;
+    margin: 130px 0 0 20px;
     box-sizing: border-box;
 
     & h1 {
@@ -109,18 +109,17 @@
   .home-page .flat-button {
     float: none;
     display: block;
-    margin: 20px auto 0 auto;
+    margin: 25px auto 0 auto;
     width: 124px;
   }
 
   .logo-container {
     position: relative;
-    width: 200px;
-    height: auto;
-    top: 50px;
-    right: 0;
-    box-sizing: border-box;
-    margin: auto;
-    left: 0;
+    width: 16em;
+    top: 80px;
+    margin-left: 20rem;
+    display: grid;
+    align-self: center;
+    
   }
 }

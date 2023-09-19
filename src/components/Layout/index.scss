@@ -17,7 +17,7 @@
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   will-change: contents;
   height: 90%;
   min-height: 566px;
@@ -127,18 +127,20 @@
       .text-zone {
         position: initial;
         transform: none;
-        width: 100%;
-        margin: 125px 0 0 5px;
+        width: 320px;
+        margin-top: 10rem;
+        margin-left: 6rem;
+
         display: block;
-        padding: 20px;
+        padding: 1rem;
         box-sizing: border-box;
       }
     }
 
     &.portfolio-page {
-      width: 100%;
-      padding: 20px;
-      margin-top: 100px;
+      width: 300px;
+      padding: 0;
+      margin: 100px 0 0 55px;
       box-sizing: border-box;
 
       h1.page-title {
@@ -151,6 +153,7 @@
         max-width: calc(50% - 10px);
       }
     }
+
   }
 
   .stage-cube-cont {
