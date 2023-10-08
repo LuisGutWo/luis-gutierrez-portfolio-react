@@ -1,11 +1,13 @@
 .home-page {
+  width: 100%;
+
   .text-zone {
     position: absolute;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    width: 100%;
+    max-height: 100%;
   }
 
   h1 {
@@ -85,7 +87,11 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media (width <=1200px) {
+
+  .home-page {
+    height: 80%;
+  }
 
   .tags,
   .home-page h1:before,
@@ -95,7 +101,7 @@
 
   .home-page .text-zone {
     position: initial;
-    width: 400px;
+    width: 100%;
     transform: none;
     padding: 1rem;
     margin: 130px 0 0 20px;
@@ -116,10 +122,11 @@
   .logo-container {
     position: relative;
     width: 16em;
+    height: 100%;
     top: 80px;
     margin-left: 20rem;
     display: grid;
     align-self: center;
-    
+
   }
 }

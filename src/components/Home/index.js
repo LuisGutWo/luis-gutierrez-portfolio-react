@@ -41,8 +41,8 @@ const Home = () => {
 
   return (
     <>
+      <BackGroundParticle />
       <div className="container home-page">
-        <BackGroundParticle />
 
         <div className="text-zone">
           <h1>

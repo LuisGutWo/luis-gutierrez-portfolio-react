@@ -51,8 +51,8 @@
   right: 0;
   overflow: hidden;
 
-  @media (max-width: 1200px) {
-    padding-top: 35%;
+  @media (width <=1200px) {
+    padding-top: 50%;
   }
 }
 
