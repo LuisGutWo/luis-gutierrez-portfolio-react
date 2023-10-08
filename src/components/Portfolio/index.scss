@@ -140,3 +140,7 @@ $color-primary-white: rgb(240, 240, 240);
 .card:hover .info:before {
     transform: translateY(0) translateZ(0);
 }
+
+@media (width <=768px) {
+    
+}

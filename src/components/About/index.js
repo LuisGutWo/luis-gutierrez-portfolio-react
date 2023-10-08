@@ -10,6 +10,7 @@ import {
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import BackGroundParticle from "../../components/BackGround/BackGroundParticle"
 import './index.scss'
 import { Image } from 'react-bootstrap'
 import 'animate.css';
@@ -25,32 +26,7 @@ const About = () => {
 
   return (
     <>
-      <div className="background">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      <BackGroundParticle />
       <div className="container about-page">
 
         <div className="text-zone">
