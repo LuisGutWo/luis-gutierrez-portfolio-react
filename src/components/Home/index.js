@@ -5,7 +5,6 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/letra_l_neon.png'
 import Logo from './Logo/index.js'
 import './index.scss'
-import BackGroundParticle from '../BackGround/BackGroundParticle'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,7 +40,6 @@ const Home = () => {
 
   return (
     <>
-      <BackGroundParticle />
       <div className="container home-page">
 
         <div className="text-zone">

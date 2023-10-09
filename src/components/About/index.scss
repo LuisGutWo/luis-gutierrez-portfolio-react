@@ -1,11 +1,12 @@
 .about-thumbnail {
   display: inline-block;
-  width: 2em;
-  border-radius: 30%;
-  margin-left: 2em;
+  width: 1.8em;
+  border-radius: 10%;
+  border: none;
+  margin-left: 1em;
   animation: backInLeft;
   animation-duration: 4s;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 1s ease-in-out;
@@ -45,7 +46,7 @@
   width: 50%;
   height: 100%;
   top: 0;
-  padding-top: 14%;
+  padding-top: 18%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -136,4 +137,12 @@
   83% {
     transform: rotateX(90deg);
   }
+}
+
+@media (width <=1200px) {
+  .about-thumbnail {
+    width: 18%;
+    margin-left: 2rem;
+  }
+
 }

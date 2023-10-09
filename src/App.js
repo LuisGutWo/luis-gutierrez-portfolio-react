@@ -4,11 +4,13 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
+import BackGroundParticle from "./components/BackGround/BackGroundParticle"
 import './App.scss'
 
 function App() {
   return (
     <>
+      <BackGroundParticle />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

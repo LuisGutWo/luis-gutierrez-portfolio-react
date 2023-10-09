@@ -9,7 +9,7 @@ const MainPortfolioCards = ({ item }) => {
       <Card.Body className="info">
         <Card.Title className="title">{item.name}</Card.Title>
         <Card.Text className="description">{item.description}</Card.Text>
-        <Button href={item.enlace} target="_blank" rel="noopener" className="card-button">
+        <Button href={item.enlace} target="_blank" rel="noopener" className="about-button">
           Ver mas
         </Button>
       </Card.Body>

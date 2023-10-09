@@ -3,6 +3,12 @@ $primary-color: #ffd700;
 @import '~loaders.css/src/animations/line-scale-pulse-out.scss';
 @import 'animate.css';
 
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -43,7 +49,7 @@ textarea {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0;
   top: 0;
   bottom: 0;
   width: 100%;
@@ -56,12 +62,6 @@ textarea {
 
 
 // Background particles styles
-@keyframes move {
-  100% {
-    transform: translate3d(0, 0, 1px) rotate(360deg);
-  }
-}
-
 .background {
   position: fixed;
   width: 100%;
@@ -78,7 +78,7 @@ textarea {
   backface-visibility: hidden;
   position: absolute;
   animation: move;
-  animation-duration: 29;
+  animation-duration: 83s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -88,7 +88,7 @@ textarea {
   color: #afadff;
   top: 67%;
   left: 41%;
-  animation-duration: 62s;
+  animation-duration: 132s;
   animation-delay: -114s;
   transform-origin: 6vw 20vh;
   box-shadow: 2vmin 0 0.45243374020074234vmin currentColor;
@@ -158,7 +158,7 @@ textarea {
   color: #afadff;
   top: 64%;
   left: 16%;
-  animation-duration: 149s;
+  animation-duration: 139s;
   animation-delay: -3s;
   transform-origin: -7vw 7vh;
   box-shadow: -2vmin 0 1.243174103287033vmin currentColor;
@@ -198,7 +198,7 @@ textarea {
   color: #371e8f;
   top: 27%;
   left: 67%;
-  animation-duration: 202s;
+  animation-duration: 192s;
   animation-delay: -122s;
   transform-origin: 15vw 1vh;
   box-shadow: -2vmin 0 0.5614492915179414vmin currentColor;
@@ -208,7 +208,7 @@ textarea {
   color: #5f5de5;
   top: 3%;
   left: 25%;
-  animation-duration: 210s;
+  animation-duration: 200s;
   animation-delay: -7s;
   transform-origin: 7vw 11vh;
   box-shadow: 2vmin 0 0.7036149962980849vmin currentColor;
@@ -228,7 +228,7 @@ textarea {
   color: #5f5de5;
   top: 38%;
   left: 39%;
-  animation-duration: 212s;
+  animation-duration: 202s;
   animation-delay: -157s;
   transform-origin: -2vw 14vh;
   box-shadow: -2vmin 0 0.6903940166794991vmin currentColor;
@@ -268,7 +268,7 @@ textarea {
   color: #5f5de5;
   top: 63%;
   left: 36%;
-  animation-duration: 199s;
+  animation-duration: 179s;
   animation-delay: -179s;
   transform-origin: -20vw -5vh;
   box-shadow: -2vmin 0 0.9564002474924735vmin currentColor;
@@ -288,7 +288,7 @@ textarea {
   color: #5f5de5;
   top: 42%;
   left: 68%;
-  animation-duration: 165s;
+  animation-duration: 145s;
   animation-delay: -205s;
   transform-origin: -11vw -16vh;
   box-shadow: -2vmin 0 0.927008838055658vmin currentColor;
@@ -318,7 +318,7 @@ textarea {
   color: #afadff;
   top: 87%;
   left: 47%;
-  animation-duration: 6s;
+  animation-duration: 56s;
   animation-delay: -99s;
   transform-origin: 20vw -15vh;
   box-shadow: 2vmin 0 0.884395416258235vmin currentColor;

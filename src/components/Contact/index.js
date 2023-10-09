@@ -6,7 +6,6 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import BackGroundParticle from '../BackGround/BackGroundParticle';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -45,7 +44,6 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <BackGroundParticle />
         <div className="text-zone">
           <h1>
             <AnimatedLetters

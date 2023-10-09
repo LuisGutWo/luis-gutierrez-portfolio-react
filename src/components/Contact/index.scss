@@ -1,7 +1,6 @@
 .contact-form {
   width: 100%;
   margin-top: 20px;
-  height: 100%;
 
   ul {
     padding: 0;
@@ -78,17 +77,17 @@
   background: rgba(8, 253, 216, 0.1);
   float: right;
   width: 53%;
-  height: 110%;
+  height: 115%;
   margin-top: -3%;
-}
 
-.leaflet-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  animation: backInRight 1s 1.2s;
-  animation-fill-mode: forwards;
+  & .leaflet-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+  }
 }
 
 .info-map {
@@ -104,7 +103,7 @@
   font-size: 17px;
   font-weight: 300;
   opacity: 0;
-  animation: fadeIn 1s 3s;
+  animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
 
   span {
@@ -116,7 +115,9 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+
+
+@media (width <=1200px) {
   .map-wrap {
     float: none;
     margin: 0;
@@ -125,8 +126,27 @@
   }
 
   .info-map {
-    top: 62%;
-    left: 13%;
-    width: 200px;
+    // display: none;
+    top: 63%;
+    right: 42%;
+    width: 160px;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 10px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+      font-size: 10px;
+
+      span {
+        color: #ffd700;
+      }
+    }
   }
+
+
 }

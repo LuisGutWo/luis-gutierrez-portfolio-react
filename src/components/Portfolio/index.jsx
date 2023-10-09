@@ -5,7 +5,6 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import MainPortfolioCards from './MainPortfolioCards'
 import 'animate.css'
-import BackGroundParticle from '../BackGround/BackGroundParticle'
 
 const Portfolio = () => {
   const [data, setData] = useState([])
@@ -15,7 +14,7 @@ const Portfolio = () => {
   useEffect(() => {
     setLoading(true)
 
-    fetch("works.json")
+    fetch('works.json')
       .then((res) => res.json())
       .then(
         (data) => {
@@ -44,7 +43,6 @@ const Portfolio = () => {
 
   return (
     <>
-      <BackGroundParticle />
       <article className="container portfolio-page">
         <h1 className="page-title">
           <AnimatedLetters
@@ -54,7 +52,7 @@ const Portfolio = () => {
           />
         </h1>
 
-        <Row xs={1} md={3} lg={4} className="works-cards-section">
+        <Row xs={1} md={2} lg={3} className="works-cards-section">
           {data.map((item) => (
             <Col key={item.id}>
               <MainPortfolioCards key={item.id} item={item} />

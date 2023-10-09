@@ -10,7 +10,6 @@ import {
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import BackGroundParticle from "../../components/BackGround/BackGroundParticle"
 import './index.scss'
 import { Image } from 'react-bootstrap'
 import 'animate.css';
@@ -27,8 +26,6 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <BackGroundParticle />
-
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -36,7 +33,7 @@ const About = () => {
               strArray={['A', 'c', 'e', 'r', 'c', 'a', ' ', 'd', 'e', ' ', 'm', 'i']}
               idx={15}
             />
-            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/thumbnail_new_luis_pic.jpg?alt=media&token=5625411f-881e-4097-a7c2-921a1a1d79da" className="about-thumbnail" thumbnail />
+            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/thumbnail_new_luis_pic.jpg?alt=media&token=5625411f-881e-4097-a7c2-921a1a1d79da" className="about-thumbnail" fluid />
           </h1>
           <p>
             Soy desarrollador web Front-end recién egresado con conocimientos en HTML, CSS, JavaScript y React. También soy profesional en Hostelería dedicado al servicio al cliente por mas de 18 años.
