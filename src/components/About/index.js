@@ -44,7 +44,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            Soy una persona entusiasta, responsable y con capacidad de trabajar en equipo o de forma autónoma. Por muchos años dedicado al servicio y atención al cliente he desarrollado la habilidad de relacionarme y adaptarme socialmente a nuevos entornos, liderar equipos de trabajo y cumplir metas y altos estándares de servicio.
+            Entusiasta, responsable y con capacidad de trabajar en equipo o de forma autónoma. El dedicarme al servicio y atención al cliente me ayudo a desarrollar la habilidad de relacionarme y adaptarme socialmente a nuevos entornos, liderar equipos de trabajo, cumplir metas y conseguir altos estándares de servicio.
 
           </p>
           <a href="https://www.canva.com/design/DAFgzUcKi5w/J1k21Aj8S8KcBvmIbF1F2Q/view?utm_content=DAFgzUcKi5w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
