@@ -15,10 +15,10 @@
     },
     {
         "id": "P003",
-        "name": "Portafolio-Blog",
-        "img": "https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/SCREENSHOT-blog-page.png?alt=media&token=a0e1d9a2-a33e-4046-9fbe-ccc32f46b5be",
-        "description": "Practica de Flex para realizar un portafolio y blog para una fotógrafa ficticia pero con datos gastronómicos reales.",
-        "enlace": "https://github.com/LuisGutWo/landing-page-gatos"
+        "name": "Montaña Orgánica",
+        "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/Web%20capture_20-11-2023_04458_localhost.jpeg?alt=media&token=d7d4d813-8a38-4186-88c3-f342d1574f98",
+        "description": "Landing page realizada para la empresa peruana de productos naturistas.",
+        "enlace": "https://montanaorganicaperu.netlify.app/"
     },
     {
         "id": "P004",

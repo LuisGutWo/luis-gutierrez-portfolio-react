@@ -4,12 +4,12 @@
   height: 609px;
   position: absolute;
   top: 30%;
-  right: 0;
+  right: 13%;
   bottom: 0;
   left: auto;
   margin: auto;
-  animation: fadeIn;
-  animation-duration: 5s;
+  animation: pulse infinite;
+  animation-duration: 8s;
 
   .solid-logo {
     position: absolute;

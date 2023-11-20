@@ -5,6 +5,8 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/letra_l_neon.png'
 import Logo from './Logo/index.js'
 import './index.scss'
+import 'animate.css';
+
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')

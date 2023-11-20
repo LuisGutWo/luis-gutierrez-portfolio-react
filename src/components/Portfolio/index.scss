@@ -6,8 +6,8 @@ $color-primary-white: rgb(240, 240, 240);
 // Portfolio main page
 .portfolio-page {
     padding: 4rem 0 0 0;
-    width: 100%;
-    overflow: auto;
+    width: 100vw;
+    overflow-y: scroll;
     margin-left: 4rem;
 
     h1.page-title {
@@ -18,13 +18,13 @@ $color-primary-white: rgb(240, 240, 240);
 
 .works-cards-section {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     gap: 0;
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
     padding-left: 6rem;
+    padding-right: 5rem;
     animation: fadeIn;
     animation-duration: 5s;
 }
@@ -136,6 +136,13 @@ $color-primary-white: rgb(240, 240, 240);
     transform: translateY(0) translateZ(0);
 }
 
+@media (width <=1700px){
+    .container{
+        flex-direction: column;
+        max-width: 1600px;
+    }
+}
+ 
 @media (width <=1200px) {
     .portfolio-page {
         margin-top: 7rem;
