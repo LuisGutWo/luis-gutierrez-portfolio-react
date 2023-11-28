@@ -2,21 +2,21 @@
     {
         "id": "P001",
         "name": "Fina Pizza",
-        "img": "https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/SCREENSHOT-finapizza-page.png?alt=media&token=fa3de1eb-5161-4384-896d-9d676d377d59",
+        "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/fina_pizza_screenshot.png?alt=media&token=1e39f2c6-9187-4f5d-b13e-9de9ced9b523",
         "description": "Aplicación en React realizada para la pizzeria Fina Pizza",
-        "enlace": "https://github.com/LuisGutWo/landing-page-gatos"
+        "enlace": "https://finapizza-chile.netlify.app/"
     },
     {
         "id": "P002",
         "name": "Huellitas Pets-store",
         "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/localhost_5173_.png?alt=media&token=90c42605-73a1-4172-95b2-3b14779069e2",
         "description": "E-Commerce creado como trabajo final del modulo React. Inspirado en una tienda de mascotas y accesorios",
-        "enlace": "https://github.com/LuisGutWo/landing-page-gatos"
+        "enlace": "https://huellitaspetstorechile.netlify.app/"
     },
     {
         "id": "P003",
         "name": "Montaña Orgánica",
-        "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/Web%20capture_20-11-2023_04458_localhost.jpeg?alt=media&token=d7d4d813-8a38-4186-88c3-f342d1574f98",
+        "img": "https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/montanaorganicaperu.netlify.app_.png?alt=media&token=684fb3c7-d71b-4e92-96db-de208538690c",
         "description": "Landing page realizada para la empresa peruana de productos naturistas.",
         "enlace": "https://montanaorganicaperu.netlify.app/"
     },
