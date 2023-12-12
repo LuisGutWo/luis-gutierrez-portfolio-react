@@ -6,7 +6,7 @@
 
 ## Elaborado con
 
-Mi portafolio personal lo elabore utilizando las herramientas adquiridas como desarrollador Front End | React
+Mi portafolio personal lo elabore utilizando las herramientas adquiridas en mi formación como desarrollador Front End, principalmente con la librería React Js.
 
 Utilice las siguientes tecnologías.
 

@@ -21,11 +21,11 @@
         "enlace": "https://montanaorganicaperu.netlify.app/"
     },
     {
-        "id": "P004",
-        "name": "Iguana Page",
-        "img": "https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/SCREENSHOT-iguana-page.png?alt=media&token=b695b57b-28e5-4592-8cf7-3f8df7830eaf",
-        "description": "Primeros trabajos utilizando grid. Iguana Page realizada desde cero",
-        "enlace": "https://github.com/LuisGutWo/landing-page-gatos"
+        "id": "P008",
+        "name": "Landing Gatos",
+        "img": "https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/SCREENSHOT-blog-page.png?alt=media&token=a0e1d9a2-a33e-4046-9fbe-ccc32f46b5be",
+        "description": "Trabajo elaborado dentro de la practica de Css Flex box. Inspirado en mi gran pasión... Los gatos.",
+        "enlace": "https: //github.com/LuisGutWo/landing-page-gatos"
     },
     {
         "id": "P005",
@@ -42,17 +42,10 @@
         "enlace": "https: //github.com/LuisGutWo/landing-page-gatos"
     },
     {
-        "id": "P007",
-        "name": "Landing Gatos",
-        "img": "https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/SCREENSHOT-finapizza-page.png?alt=media&token=fa3de1eb-5161-4384-896d-9d676d377d59",
-        "description": "Trabajo elaborado dentro de la practica de Css Flex box. Inspirado en mi gran pasión... Los gatos.",
-        "enlace": "https: //github.com/LuisGutWo/landing-page-gatos"
-    },
-    {
-        "id": "P008",
-        "name": "Landing Gatos",
-        "img": "https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/SCREENSHOT-blog-page.png?alt=media&token=a0e1d9a2-a33e-4046-9fbe-ccc32f46b5be",
-        "description": "Trabajo elaborado dentro de la practica de Css Flex box. Inspirado en mi gran pasión... Los gatos.",
-        "enlace": "https: //github.com/LuisGutWo/landing-page-gatos"
+        "id": "P004",
+        "name": "Iguana Page",
+        "img": "https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/SCREENSHOT-iguana-page.png?alt=media&token=b695b57b-28e5-4592-8cf7-3f8df7830eaf",
+        "description": "Primeros trabajos utilizando grid. Iguana Page realizada desde cero",
+        "enlace": "https://github.com/LuisGutWo/landing-page-gatos"
     }
 ]
