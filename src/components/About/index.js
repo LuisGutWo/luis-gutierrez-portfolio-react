@@ -36,11 +36,11 @@ const About = () => {
             <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/thumbnail_new_luis_pic.jpg?alt=media&token=5625411f-881e-4097-a7c2-921a1a1d79da" className="about-thumbnail" fluid />
           </h1>
           <p>
-            Soy desarrollador web Front-end recién egresado con conocimientos en HTML, CSS, JavaScript y React. También soy profesional en Hostelería dedicado al servicio al cliente por mas de 18 años.
+            Hola, mi nombre es Luis Gutierrez y soy desarrollador web Front-end con conocimientos en HTML, CSS, JavaScript, React, Bootstrap, Material UI. 
           </p>
           <br />
           <p align="LEFT">
-            Me gusta utilizar React para crear interfaces de usuario dinámicas, interactivas y modernas que se adapten a diferentes dispositivos y navegadores. Tengo experiencia en el uso de componentes, hooks, estados, props y rutas, así como en la integración de APIs y servicios externos.
+            Me gusta utilizar React para crear interfaces de usuario dinámicas, interactivas y modernas que se adapten a diferentes dispositivos y navegadores. Estoy generando experiencia en el uso de componentes, hooks, estados, props y rutas, así como en la integración de APIs y servicios externos.
           </p>
           <br />
           <p>

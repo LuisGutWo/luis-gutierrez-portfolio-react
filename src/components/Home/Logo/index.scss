@@ -1,12 +1,12 @@
 .logo-container {
-  z-index: 1;
+  position: absolute;
   width: 300px;
   height: 609px;
-  position: absolute;
   top: 30%;
   right: 13%;
   bottom: 0;
   left: auto;
+  z-index: 1;
   margin: auto;
   animation: pulse infinite;
   animation-duration: 8s;
@@ -24,4 +24,19 @@
     animation: jackInTheBox;
     animation-duration: 7s;
   }
+}
+
+
+@media (width <=1200px) {
+  .logo-container {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 33rem;
+    right: 0;
+    box-sizing: border-box; 
+    left: 0;
+
+  }
+
 }

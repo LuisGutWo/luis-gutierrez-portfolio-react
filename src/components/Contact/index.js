@@ -53,7 +53,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Actualmente me desarrollo como freelance y a la vez buscando alguna oportunidad que me permita crecer como Front End y aprender a trabajar en la industria TI, me emociona aprender nuevas habilidades y tecnologías.
+            Actualmente soy freelance y buscando también la oportunidad que me permita crecer como Front End, aprender a trabajar en la industria TI y adquirir nuevas habilidades y tecnologías.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

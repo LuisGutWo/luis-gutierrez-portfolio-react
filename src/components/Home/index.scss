@@ -53,7 +53,7 @@
     color: #b2b2b2;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 1.5em;
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
@@ -102,7 +102,7 @@
     box-sizing: border-box;
 
     & h1 {
-      font-size: 4.2rem;
+      font-size: 4.1rem;
       margin-top: 0;
     }
   }
@@ -114,15 +114,4 @@
     margin: 20px auto 0 auto;
   }
 
-  .logo-container {
-    position: relative;
-    width: 100px;
-    height: auto;
-    top: 7rem;
-    right: 0;
-    box-sizing: border-box;
-    margin: auto;
-    left: 0;
-
-  }
 }
