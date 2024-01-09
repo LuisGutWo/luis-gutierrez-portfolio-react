@@ -52,7 +52,7 @@ const Portfolio = () => {
           />
         </h1>
 
-        <Row xs={1} md={2} lg={4} className="works-cards-section">
+        <Row xs={1} md={2} lg={3} className="g-3">
           {data.map((item) => (
             <Col key={item.id}>
               <MainPortfolioCards key={item.id} item={item} />

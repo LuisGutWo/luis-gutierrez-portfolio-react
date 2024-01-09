@@ -33,14 +33,14 @@ const Sidebar = () => {
           activeclassname="active"
           to="/"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#6a6a6a" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="about-link"
           to="/about"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#6a6a6a" />
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -48,7 +48,7 @@ const Sidebar = () => {
           to="/portfolio"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faSuitcase} color="#6a6a6a" />
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -56,12 +56,12 @@ const Sidebar = () => {
           to="/contact"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#6a6a6a" />
         </NavLink>
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
-          color="#ffd700"
+          color="#6a6a6a"
           size="3x"
           className='close-icon' />
       </nav>
@@ -74,7 +74,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              color="#4d4d4e"
+              color="#6a6a6a"
               className="anchor-icon"
             />
           </a>
@@ -87,7 +87,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              color="#4d4d4e"
+              color="#6a6a6a"
               className="anchor-icon"
             />
           </a>
@@ -97,7 +97,7 @@ const Sidebar = () => {
       <FontAwesomeIcon
         onClick={() => setShowNav(true)}
         icon={faBars}
-        color="#ffd700"
+        color="#6a6a6a"
         size="3x"
         className='hamburger-icon' />
     </div>

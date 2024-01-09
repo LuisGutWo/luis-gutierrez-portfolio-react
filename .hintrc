@@ -10,7 +10,8 @@
           "backface-visibility",
           "max-width: fit-content",
           "min-height: auto",
-          "width: fit-content"
+          "width: fit-content",
+          "inset"
         ]
       }
     ]

@@ -5,8 +5,9 @@ $color-primary-white: rgb(240, 240, 240);
 
 // Portfolio main page
 .portfolio-page {
-    padding: 4rem 0 0 0;
-    width: 100vw;
+    padding: 5rem;
+    width: 100%;
+
     overflow-y: scroll;
     margin-left: 4rem;
 
@@ -15,20 +16,6 @@ $color-primary-white: rgb(240, 240, 240);
         padding: 0;
     }
 }
-
-.works-cards-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    padding-left: 6rem;
-    padding-right: 5rem;
-    animation: fadeIn;
-    animation-duration: 5s;
-}
-
 
 // New pics gallery
 .card {
@@ -87,15 +74,18 @@ $color-primary-white: rgb(240, 240, 240);
         }
 
         .card-button {
-            background-color: #aa951f;
-            font-size: 10px;
-            font-weight: 600;
+            background-color: #f7d722;
+            color: #131313;
+            text-transform: uppercase;
+            width: 89%;
+            font-size: 16px;
+            font-weight: bold;
             letter-spacing: 4px;
             font-family: sans-serif;
             text-decoration: none;
-            padding: 8px 10px;
-            border: 1px solid #ffd700;
-            margin-top: 1rem;
+            padding: 1rem;
+            border: 1px solid #181506;
+            margin-top: 6rem;
             margin-left: 2rem;
             float: left;
             animation: fadeInAnimation 1s 1.8s backwards;
@@ -104,8 +94,8 @@ $color-primary-white: rgb(240, 240, 240);
             animation-duration: 3s;
 
             &:hover {
-                background: #ffd700;
-                color: #333;
+                background: #bcbcbc;
+                color: #101010;
             }
         }
 
@@ -136,28 +126,22 @@ $color-primary-white: rgb(240, 240, 240);
     transform: translateY(0) translateZ(0);
 }
 
-@media (width <=1700px){
-    .container{
+@media (width <=1700px) {
+    .container {
         flex-direction: column;
         max-width: 1600px;
     }
 }
- 
+
 @media (width <=1200px) {
     .portfolio-page {
-        margin-top: 7rem;
-        margin-bottom: 0;
+        margin: 7rem 0;
+        padding: 0;
 
         & h1.page-title {
             margin-bottom: -1rem;
             padding: 0;
         }
-    }
-
-    .works-cards-section {
-        width: 100%;
-        margin-top: 4rem;
-        padding-left: 0;
     }
 
 }
