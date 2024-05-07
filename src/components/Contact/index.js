@@ -26,10 +26,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICE_EMAILJS,
-        import.meta.env.VITE_TEMPLATE_EMAILJS,
+        process.env.REACT_APP_SERVICE_EMAILJS,
+        process.env.REACT_APP_TEMPLATE_EMAILJS,
         form.current,
-        import.meta.env.VITE_FORM_CURRENT
+        process.env.REACT_APP_FORM_CURRENT
       )
       .then(
         (result) => {

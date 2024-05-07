@@ -33,7 +33,7 @@ const About = () => {
               strArray={['A', 'c', 'e', 'r', 'c', 'a', ' ', 'd', 'e', ' ', 'm', 'i']}
               idx={15}
             />
-            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/thumbnail_new_luis_pic.jpg?alt=media&token=5625411f-881e-4097-a7c2-921a1a1d79da" className="about-thumbnail" fluid />
+            <Image src="https://firebasestorage.googleapis.com/v0/b/luis-gutierrez-portfolio.appspot.com/o/luis_perfil_img.jpg?alt=media&token=01a1ef00-1c24-47d6-a4b6-6e89e56da91e" className="about-thumbnail" fluid />
           </h1>
           <p>
             Hola, mi nombre es Luis Gutierrez y soy desarrollador web Front-end con conocimientos en HTML, CSS, JavaScript, React, Bootstrap, Material UI. 
